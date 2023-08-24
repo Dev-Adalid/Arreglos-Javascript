@@ -200,15 +200,15 @@ let arr
 arreglo con los elementos comunes entre ambos arreglos.
 */
 
-function ejercicioadicional(){
-let arr1 =  [2, 3, 4];
+
+let arr1 =  [3, 3, 4];
 let arr2 = [3, 3, 7];
 let nuevoArr = []
 let j=0
-for (let i=0; i<arr.length; i++){
-    if (arr1[i]===arr2[i]) 
-    nuevoArr [j] = arr1[i]
-    j= j+1
+for (let i=0; i<arr1.length; i++){
+    if (arr1[i]===arr2[i]) {
+        nuevoArr [j] = arr1[i]
+        j= j+1
+    }
 }
- 
-}
+console.log(nuevoArr)
